@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {reduxForm} from 'redux-form';
 import {
   View,
@@ -15,7 +15,7 @@ import RadioReduxSwitch from '../../../components/RadioReduxSwitch';
 import FlexButton from '../../../components/FlexButton';
 import FlexWritableFieldItem from '../../../components/FlexWritableFieldItem';
 import PickerField from '../../../components/PickerField';
-import CalendarModalScreen from '../../../screens/CalendarModalScreen';
+import CalendarModal from '../../../components/CalendarModal';
 import {globalImagePicker} from '../../../globalFunctions/globalImagePicker';
 
 const InfoFillScreen = ({
@@ -46,6 +46,8 @@ const InfoFillScreen = ({
   infoFillRef,
   scrollToTop,
 }) => {
+  const [calendar, setcalendar] = useState(false);
+  const toggleCalendar = () => setcalendar(!calendar);
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView ref={infoFillRef}>
@@ -80,8 +82,6 @@ const InfoFillScreen = ({
             <Text style={styles.switchLabel}>{activeInfo.label}</Text>
             <SwitchField name={activeInfo.name} />
           </View>
-          <CalendarModalScreen />
-          {/* {calendar && <CalendarModal />} */}
           <View style={styles.infoMediaContainer}>
             <View style={styles.InfoItemContentContainer}>
               <Text style={styles.label}>{videoInfo.title}</Text>
@@ -105,12 +105,17 @@ const InfoFillScreen = ({
               />
             ))}
             <Text style={styles.startDateText}>{startDate}</Text>
+            {calendar && <CalendarModal />}
             <FlexButton
               containerStyle={styles.openCalendarButton}
               textStyle={styles.calendarButton}
-              title={calendarButton.title}
+              title={
+                calendar
+                  ? calendarButton.closeCalendar
+                  : calendarButton.openCalendar
+              }
               icon={calendarButton.image}
-              onPress={noop}
+              onPress={toggleCalendar}
             />
             <FlexWritableFieldItem
               underline={wishedPosition.underline}

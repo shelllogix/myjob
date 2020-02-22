@@ -11,7 +11,6 @@ import VerifyEmailScreenContainer from './src/screens/Authorization/VerifyEmail/
 import ChangeNumberScreenContainer from './src/screens/Authorization/ChangeNumber/ChangeNumberScreenContainer';
 import OnBoardScreenContainer from './src/screens/Authorization/OnBoard/OnBoardScreenContainer';
 import InfoFillScreenContainer from './src/screens/Authorization/InfoFill/InfoFillScreenContainer';
-import CalendarModalScreen from './src/screens/CalendarModalScreen'
 
 const AuthStack = createStackNavigator(
   {
@@ -23,7 +22,6 @@ const AuthStack = createStackNavigator(
     ChangeNumberScreen: ChangeNumberScreenContainer,
     OnBoardScreen: OnBoardScreenContainer,
     InfoFillScreen: InfoFillScreenContainer,
-    CalendarModal: CalendarModalScreen,
   },
   {
     initialRouteName: 'InfoFillScreen',

@@ -100,7 +100,8 @@ const InfoFillScreenWithProps = withProps({
   ],
   startDate: 'Желаемая дата выхода',
   calendarButton: {
-    title: 'Открыть календарь',
+    openCalendar: 'Открыть календарь',
+    closeCalendar: 'Закрыть календарь',
     image: require('../../../assets/openCalendar.png'),
   },
   wishedPosition: {
