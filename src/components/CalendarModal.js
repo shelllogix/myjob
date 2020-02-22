@@ -23,7 +23,7 @@ const CalendarModal = () => {
       <Calendar
         markedDates={incomingDateData}
         markingType={'period'}
-        onDayLongPress={addDayInCalendar}
+        onDayPress={addDayInCalendar}
       />
     </View>
   );
