@@ -171,8 +171,7 @@ const InfoFillScreenWithProps = withProps({
     image: require('../../../assets/takePhotoIcon.png'),
     addImage: require('../../../assets/addIcon.png'),
     options: {
-      title: 'Select Avatar',
-      customButtons: [{name: 'fb', title: 'Choose Photo from Facebook'}],
+      title: 'Выберите Аватар',
       storageOptions: {
         skipBackup: true,
         path: 'images',

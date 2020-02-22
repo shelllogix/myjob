@@ -1,6 +1,7 @@
 import ImagePicker from 'react-native-image-picker';
 
-export const globalImagePicker = (options, getimage) => {
+export const globalImagePicker = (options, getimage, scrollToTop) => {
+  scrollToTop();
   ImagePicker.showImagePicker(options, response => {
     if (response.didCancel) {
       // console.log('User cancelled image picker');

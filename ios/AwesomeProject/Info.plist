@@ -2,11 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIAppFonts</key>
-	<array>
-		<string>GoogleSans-Bold.ttf</string>
-		<string>GoogleSans-Medium.ttf</string>
-	</array>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Приложение хочет вопользовотся микрофоном чтобы записать видео, разрешить?</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Приложение хочет вопользовотся галереей чтобы изменить фото профиля, разрешить?</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Приложение хочет вопользовотся камерой чтобы изменить фото профиля, разрешить?</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Приложение хочет вопользовотся галереей чтобы изменить фото профиля, разрешить?</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -44,6 +47,11 @@
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>GoogleSans-Bold.ttf</string>
+		<string>GoogleSans-Medium.ttf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>

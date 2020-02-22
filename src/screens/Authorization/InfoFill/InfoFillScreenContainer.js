@@ -6,8 +6,15 @@ class InfoFillScreenContainer extends Component {
   static navigationOptions = () => ({
     header: null,
   });
+
   state = {
     image: null,
+  };
+
+  ref = React.createRef();
+
+  scrollToTop = () => {
+    this.ref.current.scrollTo({animated: true}, 0);
   };
 
   imagePickerHandler = image => {
@@ -17,11 +24,14 @@ class InfoFillScreenContainer extends Component {
   };
 
   render() {
-    console.log(this.state.image, 'image????');
+    const {image} = this.state;
     return (
       <InfoFillScreenWithProps
+        infoFillRef={this.ref}
         noop={noop}
         getImageHandler={this.imagePickerHandler}
+        avatar={image}
+        scrollToTop={this.scrollToTop}
       />
     );
   }

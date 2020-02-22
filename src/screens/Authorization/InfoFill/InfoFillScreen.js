@@ -21,6 +21,7 @@ import {globalImagePicker} from '../../../globalFunctions/globalImagePicker';
 const InfoFillScreen = ({
   noop,
   icons,
+  avatar,
   secondoryIcons,
   userInfo,
   activeInfo,
@@ -42,10 +43,12 @@ const InfoFillScreen = ({
   getImageHandler,
   workExperience,
   button,
+  infoFillRef,
+  scrollToTop,
 }) => {
   return (
     <SafeAreaView style={styles.container}>
-      <ScrollView>
+      <ScrollView ref={infoFillRef}>
         <View style={styles.topContainer}>
           <ImageBackground
             resizeMode="stretch"
@@ -58,9 +61,13 @@ const InfoFillScreen = ({
                 ))}
               </View>
               <View style={styles.userInfoContainer}>
-                {secondoryIcons.map(icon => (
+                {secondoryIcons.map((icon, i) => (
                   <View style={icon.containerStyle} key={icon.id}>
-                    <Image source={icon.src} />
+                    {avatar && i === 1 ? (
+                      <Image source={{uri: avatar.uri}} style={styles.avatar} />
+                    ) : (
+                      <Image source={icon.src} />
+                    )}
                   </View>
                 ))}
               </View>
@@ -179,7 +186,11 @@ const InfoFillScreen = ({
               <Text style={styles.label}>{photoInfo.title}</Text>
               <TouchableOpacity
                 onPress={() =>
-                  globalImagePicker(photoInfo.options, getImageHandler)
+                  globalImagePicker(
+                    photoInfo.options,
+                    getImageHandler,
+                    scrollToTop,
+                  )
                 }>
                 <Image style={styles.addImage} source={photoInfo.addImage} />
               </TouchableOpacity>
@@ -352,6 +363,11 @@ const styles = StyleSheet.create({
   },
   addImage: {
     marginRight: 10,
+  },
+  avatar: {
+    height: '100%',
+    width: '100%',
+    borderRadius: 59,
   },
   videoInfoText: {
     fontFamily: 'GoogleSans-Medium',
