@@ -1,0 +1,238 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-gesture-handler] /Users/hrantabrahamyan/Desktop/AwesomeProject/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /Users/hrantabrahamyan/Desktop/AwesomeProject/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-screens] /Users/hrantabrahamyan/Desktop/AwesomeProject/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-svg] /Users/hrantabrahamyan/Desktop/AwesomeProject/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/b04eff6d4850a2e7e5aff6880d85da38/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/94b2ab9d6389b61c65a60495a7d9ceaa/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-linear-gradient] /Users/hrantabrahamyan/Desktop/AwesomeProject/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/e4418799dd90952e77ac7ef3ba39b638/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/ffe596864fcfd67b3e5987228fe08a4f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/6ab5d8938952f0167384116855b4e0f2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/b1f13607782399db08bd10c676feea85/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/5ed622487a5d10424da1805d59c57f6a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/5d6acdfb784b6c26aa6dd580d8c14864/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/96b5818f1587f48776243f64d4d8315b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/93ee5c59aa709f8c77ecd8ca9e5ce30d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/75325366abe68207a18d57c5335b2b2e/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.transition:transition:1.1.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/afabe69a7c6a6e507a947d1481fc7c58/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/1605113eea3f49167a10be3374574020/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/97b899fcca92fb6a0d25ff444a7419f8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/9131af83c0cf1afa0c6f5fc6eb6dc35b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/1db2b86765f2a3d3b88300932349fd5f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/f870b6d8e27f6e390e2fb70dd2c7d950/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/5ddff1349acbf4f33075ba6421dd8034/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/fdcdcc136f93c2df73f3f9ef3c035b3e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/1d69c6fbf03151601f5a3ab518454a20/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/2c3070e5bb3e8d4b5ed31e6de8a4a2be/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/e850fd65d28e1ec48e1f8711041b4d12/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/41b8b1faece019396861cff396b62f2f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/f3f635e7c3c7c159e45f34d335df0d4d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/06ced4aebd199936439405e25cd97a2b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/9f89b00cb3a79f89ab77b844019a63a4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/510cb9608e6ad234d90620a4cba7b8de/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/0149d7b947e5b81d308468ca2d8850d9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/318977ce8b093b85204b7ee9ec423c9c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/09894acc9842aed5f8f4f7c2f37a7401/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/904b4f1306a0c3065395f727bc0b3aa6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/c7a0c95d6b2843a727e4b1e73db72f96/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/50c91a27fc6846da85d6e3974db04cf0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/0e2c0cba37d34c75fc2d3e78f542e55c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/487f4fcf2249abb60a3eb787f66c1821/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/ae589f7d6e7900560b854c8910b676fc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/c6571d96b04d2d94974524cfff11de10/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/88443929216621af3f07f4efe5e1b659/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:2:3-31
+		INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:2:3-31
+		INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/b04eff6d4850a2e7e5aff6880d85da38/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/b04eff6d4850a2e7e5aff6880d85da38/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/75325366abe68207a18d57c5335b2b2e/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/75325366abe68207a18d57c5335b2b2e/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.0.1] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/9f89b00cb3a79f89ab77b844019a63a4/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/9f89b00cb3a79f89ab77b844019a63a4/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/510cb9608e6ad234d90620a4cba7b8de/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/510cb9608e6ad234d90620a4cba7b8de/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/9f89b00cb3a79f89ab77b844019a63a4/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:8:7-39
+	tools:ignore
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:10:7-52
+	tools:targetApi
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.awesomeproject.MainActivity
+ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-gesture-handler] /Users/hrantabrahamyan/Desktop/AwesomeProject/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/hrantabrahamyan/Desktop/AwesomeProject/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/hrantabrahamyan/Desktop/AwesomeProject/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/hrantabrahamyan/Desktop/AwesomeProject/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/hrantabrahamyan/Desktop/AwesomeProject/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/hrantabrahamyan/Desktop/AwesomeProject/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] /Users/hrantabrahamyan/Desktop/AwesomeProject/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Users/hrantabrahamyan/Desktop/AwesomeProject/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/b04eff6d4850a2e7e5aff6880d85da38/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/b04eff6d4850a2e7e5aff6880d85da38/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/94b2ab9d6389b61c65a60495a7d9ceaa/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/94b2ab9d6389b61c65a60495a7d9ceaa/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/hrantabrahamyan/Desktop/AwesomeProject/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/hrantabrahamyan/Desktop/AwesomeProject/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/e4418799dd90952e77ac7ef3ba39b638/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/e4418799dd90952e77ac7ef3ba39b638/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/ffe596864fcfd67b3e5987228fe08a4f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/ffe596864fcfd67b3e5987228fe08a4f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/6ab5d8938952f0167384116855b4e0f2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/6ab5d8938952f0167384116855b4e0f2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/b1f13607782399db08bd10c676feea85/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/b1f13607782399db08bd10c676feea85/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/5ed622487a5d10424da1805d59c57f6a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/5ed622487a5d10424da1805d59c57f6a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/5d6acdfb784b6c26aa6dd580d8c14864/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/5d6acdfb784b6c26aa6dd580d8c14864/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/96b5818f1587f48776243f64d4d8315b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/96b5818f1587f48776243f64d4d8315b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/93ee5c59aa709f8c77ecd8ca9e5ce30d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/93ee5c59aa709f8c77ecd8ca9e5ce30d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/75325366abe68207a18d57c5335b2b2e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/75325366abe68207a18d57c5335b2b2e/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.transition:transition:1.1.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/afabe69a7c6a6e507a947d1481fc7c58/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/afabe69a7c6a6e507a947d1481fc7c58/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/1605113eea3f49167a10be3374574020/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/1605113eea3f49167a10be3374574020/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/97b899fcca92fb6a0d25ff444a7419f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/97b899fcca92fb6a0d25ff444a7419f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/9131af83c0cf1afa0c6f5fc6eb6dc35b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/9131af83c0cf1afa0c6f5fc6eb6dc35b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/1db2b86765f2a3d3b88300932349fd5f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/1db2b86765f2a3d3b88300932349fd5f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/f870b6d8e27f6e390e2fb70dd2c7d950/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/f870b6d8e27f6e390e2fb70dd2c7d950/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/5ddff1349acbf4f33075ba6421dd8034/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/5ddff1349acbf4f33075ba6421dd8034/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/fdcdcc136f93c2df73f3f9ef3c035b3e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/fdcdcc136f93c2df73f3f9ef3c035b3e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/1d69c6fbf03151601f5a3ab518454a20/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/1d69c6fbf03151601f5a3ab518454a20/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/2c3070e5bb3e8d4b5ed31e6de8a4a2be/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/2c3070e5bb3e8d4b5ed31e6de8a4a2be/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/e850fd65d28e1ec48e1f8711041b4d12/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/e850fd65d28e1ec48e1f8711041b4d12/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/41b8b1faece019396861cff396b62f2f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/41b8b1faece019396861cff396b62f2f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/f3f635e7c3c7c159e45f34d335df0d4d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/f3f635e7c3c7c159e45f34d335df0d4d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/06ced4aebd199936439405e25cd97a2b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/06ced4aebd199936439405e25cd97a2b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/9f89b00cb3a79f89ab77b844019a63a4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/9f89b00cb3a79f89ab77b844019a63a4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/510cb9608e6ad234d90620a4cba7b8de/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/510cb9608e6ad234d90620a4cba7b8de/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/0149d7b947e5b81d308468ca2d8850d9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/0149d7b947e5b81d308468ca2d8850d9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/318977ce8b093b85204b7ee9ec423c9c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/318977ce8b093b85204b7ee9ec423c9c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/09894acc9842aed5f8f4f7c2f37a7401/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/09894acc9842aed5f8f4f7c2f37a7401/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/904b4f1306a0c3065395f727bc0b3aa6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/904b4f1306a0c3065395f727bc0b3aa6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/c7a0c95d6b2843a727e4b1e73db72f96/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/c7a0c95d6b2843a727e4b1e73db72f96/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/50c91a27fc6846da85d6e3974db04cf0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/50c91a27fc6846da85d6e3974db04cf0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/0e2c0cba37d34c75fc2d3e78f542e55c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/0e2c0cba37d34c75fc2d3e78f542e55c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/487f4fcf2249abb60a3eb787f66c1821/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/487f4fcf2249abb60a3eb787f66c1821/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/ae589f7d6e7900560b854c8910b676fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/ae589f7d6e7900560b854c8910b676fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/c6571d96b04d2d94974524cfff11de10/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/c6571d96b04d2d94974524cfff11de10/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/88443929216621af3f07f4efe5e1b659/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/hrantabrahamyan/.gradle/caches/transforms-2/files-2.1/88443929216621af3f07f4efe5e1b659/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/hrantabrahamyan/Desktop/AwesomeProject/android/app/src/debug/AndroidManifest.xml:5:22-75
