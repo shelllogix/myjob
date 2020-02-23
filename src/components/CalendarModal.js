@@ -11,9 +11,10 @@ const CalendarModal = () => {
     setincomingDateData({
       ...incomingDateData,
       [day.dateString]: {
-        startingDay: false,
+        startingDay: true,
         selected: true,
         selectedColor: '#636ECE',
+        // selectedColor: 'rgb(0, 217, 253)',
       },
     });
   };
@@ -24,6 +25,7 @@ const CalendarModal = () => {
         startingDay: false,
         selected: true,
         selectedColor: '#B93B88',
+        // selectedColor: '#rgb(0, 260, 263)',
       },
     });
   };

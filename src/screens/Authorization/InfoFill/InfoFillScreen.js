@@ -45,6 +45,7 @@ const InfoFillScreen = ({
   button,
   infoFillRef,
   scrollToTop,
+  calendarSave,
 }) => {
   const [calendar, setcalendar] = useState(false);
   const toggleCalendar = () => setcalendar(!calendar);
@@ -117,6 +118,14 @@ const InfoFillScreen = ({
               onPress={toggleCalendar}
             />
             {calendar && <CalendarModal />}
+            {calendar && (
+              <FlexButton
+                containerStyle={styles.saveCalendarButton}
+                textStyle={styles.calendarSaveButton}
+                title={calendarSave.title}
+                onPress={noop}
+              />
+            )}
             <FlexWritableFieldItem
               underline={wishedPosition.underline}
               containerStyle={styles.inputContainer}
@@ -408,6 +417,12 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#424DE7',
   },
+  calendarSaveButton: {
+    marginLeft: 9,
+    fontFamily: 'GoogleSans-Medium',
+    fontSize: 16,
+    color: '#FFFFFF',
+  },
   positionText: {
     fontFamily: 'GoogleSans-Bold',
     fontSize: 16,
@@ -475,6 +490,14 @@ const styles = StyleSheet.create({
   },
   fildsTitle: {
     paddingTop: 16,
+  },
+  saveCalendarButton: {
+    backgroundColor: '#424DE7',
+    borderRadius: 0,
+    borderBottomLeftRadius: 7,
+    borderBottomRightRadius: 7,
+    marginTop: 12,
+    marginBottom: 16,
   },
 });
 
