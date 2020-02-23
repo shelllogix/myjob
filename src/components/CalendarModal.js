@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import {View} from 'react-native';
 import {Calendar} from 'react-native-calendars';
-import LinearGradient from 'react-native-linear-gradient';
 
 const currentDate = new Date().toISOString().split('T')[0];
 
@@ -31,15 +30,13 @@ const CalendarModal = () => {
 
   return (
     <View>
-      <LinearGradient colors={['#4c669f', '#3b5998', '#192f6a']}>
-        <Calendar
-          current={currentDate}
-          markedDates={incomingDateData}
-          onDayPress={addDayInCalendar}
-          onDayLongPress={addEventInCalendar}
-          markingType={'multi-dot'}
-        />
-      </LinearGradient>
+      <Calendar
+        current={currentDate}
+        markedDates={incomingDateData}
+        onDayPress={addDayInCalendar}
+        onDayLongPress={addEventInCalendar}
+        markingType={'multi-dot'}
+      />
     </View>
   );
 };
