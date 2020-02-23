@@ -105,7 +105,6 @@ const InfoFillScreen = ({
               />
             ))}
             <Text style={styles.startDateText}>{startDate}</Text>
-            {calendar && <CalendarModal />}
             <FlexButton
               containerStyle={styles.openCalendarButton}
               textStyle={styles.calendarButton}
@@ -117,6 +116,7 @@ const InfoFillScreen = ({
               icon={calendarButton.image}
               onPress={toggleCalendar}
             />
+            {calendar && <CalendarModal />}
             <FlexWritableFieldItem
               underline={wishedPosition.underline}
               containerStyle={styles.inputContainer}
