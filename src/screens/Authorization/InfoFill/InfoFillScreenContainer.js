@@ -13,6 +13,8 @@ class InfoFillScreenContainer extends Component {
 
   ref = React.createRef();
 
+  videRef = React.createRef();
+
   scrollToTop = () => {
     this.ref.current.scrollTo({animated: true}, 0);
   };
@@ -28,6 +30,7 @@ class InfoFillScreenContainer extends Component {
     return (
       <InfoFillScreenWithProps
         infoFillRef={this.ref}
+        videRef={this.videRef}
         noop={noop}
         getImageHandler={this.imagePickerHandler}
         avatar={image}

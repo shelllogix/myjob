@@ -104,6 +104,9 @@ const InfoFillScreenWithProps = withProps({
     closeCalendar: 'Закрыть календарь',
     image: require('../../../assets/openCalendar.png'),
   },
+  calendarSave: {
+    title: 'Сохранить',
+  },
   wishedPosition: {
     underline: true,
     name: 'wishedPosition',
