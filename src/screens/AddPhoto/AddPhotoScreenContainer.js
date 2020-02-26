@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, Image, StyleSheet, Text} from 'react-native';
+import {View, Image, TouchableOpacity, StyleSheet, Text} from 'react-native';
 import AddPhotoScreenWithProps from './AddPhotoScreenWithProps';
 
 class AddPhotoScreenContainer extends Component {
@@ -10,9 +10,12 @@ class AddPhotoScreenContainer extends Component {
       </View>
     ),
     headerRight: () => (
-      <View style={styles.headerRightContainer}>
-        <Image source={require('../../assets/headerAddIcon.png')} />
-      </View>
+      <TouchableOpacity
+        onPress={() => navigation.state.params.openNewAlbumHandler()}>
+        <View style={styles.headerRightContainer}>
+          <Image source={require('../../assets/headerAddIcon.png')} />
+        </View>
+      </TouchableOpacity>
     ),
     headerStyle: {
       borderBottomWidth: 0,
@@ -23,11 +26,24 @@ class AddPhotoScreenContainer extends Component {
     isEmpty: true,
   };
 
+  componentDidMount() {
+    this.props.navigation.setParams({
+      openNewAlbumHandler: this.openNewAlbumHandler,
+    });
+  }
+
   showAddedALbumsHandler = () => {
     this.setState({
       isEmpty: false,
     });
   };
+
+  openModalHandler = () => {
+    this.props.navigation.navigate('ModalSack');
+  };
+
+  openNewAlbumHandler = () =>
+    this.props.navigation.navigate('NewAlbumModalStack');
 
   render() {
     const {isEmpty} = this.state;
@@ -35,6 +51,7 @@ class AddPhotoScreenContainer extends Component {
       <AddPhotoScreenWithProps
         isEmpty={isEmpty}
         showAddedALbumsHandler={this.showAddedALbumsHandler}
+        openModalHandler={this.openModalHandler}
       />
     );
   }

@@ -18,6 +18,8 @@ import SearchScreenContainer from './src/screens/Search/SearchScreenContainer';
 import AddPhotoScreenContainer from './src/screens/AddPhoto/AddPhotoScreenContainer';
 import ProfileScreenContainer from './src/screens/Profile/ProfileScreenContainer';
 import SettingsScreenContainer from './src/screens/Settings/SettingsScreenContainer';
+import CustomModalScreenContainer from './src/screens/CustomModal/CustomModalScreenContainer';
+import NewAlbumModalScreenContainer from './src/screens/NewAlbumModal/NewAlbumModalScreenContainer';
 
 const AuthStack = createStackNavigator(
   {
@@ -32,6 +34,40 @@ const AuthStack = createStackNavigator(
   },
   {
     initialRouteName: 'InfoFillScreen',
+  },
+);
+
+const ModalSack = createStackNavigator(
+  {
+    CustomModalScreen: CustomModalScreenContainer,
+  },
+  {
+    mode: 'modal',
+    headerMode: 'none',
+    cardStyle: {backgroundColor: 'rgba(8, 8, 10, 0.91)', opacity: 0.5},
+    transitionConfig: () => ({
+      containerStyle: {backgroundColor: 'rgba(8, 8, 10, 0.91)'},
+    }),
+    // defaultNavigationOptions: {
+    //   headerBackTitle: null,
+    // },
+  },
+);
+
+const NewAlbumModalStack = createStackNavigator(
+  {
+    NewAlbumModalScreen: NewAlbumModalScreenContainer,
+  },
+  {
+    mode: 'modal',
+    headerMode: 'none',
+    cardStyle: {backgroundColor: 'rgba(8, 8, 10, 0.91)', opacity: 0.5},
+    transitionConfig: () => ({
+      containerStyle: {backgroundColor: 'rgba(8, 8, 10, 0.91)'},
+    }),
+    // defaultNavigationOptions: {
+    //   headerBackTitle: null,
+    // },
   },
 );
 
@@ -78,14 +114,33 @@ const TabStack = createBottomTabNavigator(
   },
 );
 
+const RootStack = createStackNavigator(
+  {
+    TabStack,
+    ModalSack,
+    NewAlbumModalStack,
+  },
+  {
+    mode: 'modal',
+    headerMode: 'none',
+    cardStyle: {backgroundColor: 'rgba(8, 8, 10, 0.91)', opacity: 0.9},
+    transitionConfig: () => ({
+      containerStyle: {backgroundColor: 'rgba(8, 8, 10, 0.91)'},
+    }),
+    defaultNavigationOptions: {
+      headerBackTitle: null,
+    },
+  },
+);
+
 const RootSwitch = createAppContainer(
   createSwitchNavigator(
     {
       AuthStack,
-      TabStack,
+      RootStack,
     },
     {
-      initialRouteName: 'TabStack',
+      initialRouteName: 'RootStack',
     },
   ),
 );

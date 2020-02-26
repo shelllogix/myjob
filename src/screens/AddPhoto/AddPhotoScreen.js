@@ -1,7 +1,13 @@
 import React from 'react';
-import {View, Image, ScrollView, Text, StyleSheet} from 'react-native';
+import {
+  View,
+  Image,
+  TouchableWithoutFeedback,
+  ScrollView,
+  Text,
+  StyleSheet,
+} from 'react-native';
 import FlexButton from '../../components/FlexButton';
-import CustomModal from '../../components/CustomModal';
 
 const AddPhotoScreen = ({
   isEmpty,
@@ -9,6 +15,8 @@ const AddPhotoScreen = ({
   title,
   buttonTitle,
   albums,
+  openModalHandler,
+  openNewAlbumHandler,
 }) => (
   <>
     <View style={styles.border} />
@@ -28,11 +36,13 @@ const AddPhotoScreen = ({
           <View key={album.id} style={styles.albumItem}>
             <View style={styles.albumItemTitleContainer}>
               <Text style={styles.albumType}>{album.albumType}</Text>
-              <View style={styles.dotContainer}>
-                <View style={styles.dot} />
-                <View style={styles.dot} />
-                <View style={styles.dot} />
-              </View>
+              <TouchableWithoutFeedback onPress={openModalHandler}>
+                <View style={styles.dotContainer}>
+                  <View style={styles.dot} />
+                  <View style={styles.dot} />
+                  <View style={styles.dot} />
+                </View>
+              </TouchableWithoutFeedback>
             </View>
             <View style={styles.imageContainer}>
               <Image source={album.image} style={styles.albumImage} />
@@ -53,7 +63,6 @@ const AddPhotoScreen = ({
       </ScrollView>
     )}
     <View style={styles.border} />
-    <CustomModal show/>
   </>
 );
 
